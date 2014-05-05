@@ -1,4 +1,10 @@
-<?php get_header(); ?>
+<?php
+	/**
+	 * WordPress Athena Theme Header
+	 * @package athena_theme
+	 * @version 0.3
+	**/
+get_header(); ?>
 	<section>
 		<?php
 			if (!is_singular()) {
@@ -10,4 +16,10 @@
 			}
 		?>
 	</section>
-<?php get_footer(); ?>
+<?php
+	/**
+	 * WordPress Athena Theme Footer
+	 * @package athena_theme
+	 * @version 0.3
+	**/
+get_footer(); ?>
