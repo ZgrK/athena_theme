@@ -1,7 +1,6 @@
 <?php
 	/**
 	 * WordPress Simple And Clean Blogging Theme
-	 * Athena Themes created for just blogging
 	 * @package athena_theme
 	 * @version 0.3
 	**/
@@ -41,7 +40,6 @@
 
 	/**
 	 * WordPress wp_footer Arrangement
-	 * Add athena_theme footer scripts and styles.
 	 * @package athena_theme
 	 * @version 0.3
 	**/
