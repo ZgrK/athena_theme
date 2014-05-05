@@ -8,3 +8,5 @@ Created for simple blogging by Fatih Toprak.
 Demo link will be here, in future.
 
 Contact : patron@fatihtoprak.com
+
+Author URI : http://www.fatihtoprak.com
