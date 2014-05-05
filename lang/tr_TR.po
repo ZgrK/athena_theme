@@ -1,0 +1,158 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Athena_Theme\n"
+"POT-Creation-Date: 2014-05-05 03:39+0200\n"
+"PO-Revision-Date: 2014-05-05 03:39+0200\n"
+"Last-Translator: Fatih Toprak <patron@fatihtoprak.com>\n"
+"Language-Team: Fatih Toprak <patron@fatihtoprak.com>\n"
+"Language: tr_TR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.5\n"
+"X-Poedit-Basepath: ../\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: .\n"
+"X-Poedit-SearchPath-2: ..\n"
+
+#: ../athena/athena-comments.php:7 athena-comments.php:7
+msgid "Please install disqus comments system plugin for, comments area."
+msgstr ""
+"Lütfen yorum alanı için disqus comments syetem plugini aktifleştiriniz."
+
+#: ../athena/athena-loop.php:13 ../athena/athena-singleloop.php:20
+#: athena-loop.php:13 athena-singleloop.php:20
+#, php-format
+msgid "Read More : %s"
+msgstr "%s yazısının devamını okuyun"
+
+#: ../athena/athena-navigation.php:5 athena-navigation.php:5
+msgid "Load More New Posts"
+msgstr "Daha fazla yeni yazı yükle"
+
+#: ../athena/athena-navigation.php:8 athena-navigation.php:8
+msgid "Load More Old Posts"
+msgstr "Daha fazla eski yazı yükle"
+
+#: ../athena/athena-noposts.php:13 athena-noposts.php:13
+msgid "404 / Nothing Found Here."
+msgstr "404 / Sayfa Bulunamadı."
+
+#: ../athena/athena-noposts.php:20 athena-noposts.php:20
+msgid ""
+"<p>Were very sorry, but the page you requested has not been found! It may "
+"have been moved or deleted.</p> <p>If there isnt, you could try searching my "
+"website for the content you were looking for:</p>"
+msgstr ""
+"<p>Bu istek veya sayfaya erişmeye çalışıyorsunuz ancak, biz buna cevap "
+"veremiyoruz, üzgünüz! Bu içerik silinmiş / taşınmış olabilir.</p> <p>Ancak "
+"dilerseniz arama kutusunu kullanarak birşeyler arayabilirsiniz:</p>"
+
+#: ../athena/athena-singleloop.php:43 athena-singleloop.php:43
+msgid "Continue Reading"
+msgstr "Devamını Okuyun"
+
+#: ../athena/athena-singleloop.php:51 athena-singleloop.php:51
+msgid "Comments"
+msgstr "Yorumlar"
+
+#: ../athena/functions.php:27 functions.php:27
+msgid "Home"
+msgstr "Ana Sayfa"
+
+#: ../athena/functions.php:33 functions.php:33
+msgid "Search Results"
+msgstr "Arama Sonuçları"
+
+#: ../athena/functions.php:36 functions.php:36
+msgid "Archive"
+msgstr "Arşiv"
+
+#: ../athena/functions.php:50 functions.php:50
+#, php-format
+msgid ""
+"%s &copy; 2014 - All rights reserved. <br /> Build with <a href='http://"
+"athena.fatihtoprak.com'>Athena Wordpress Theme</a> &amp; WordPress CMS by <a "
+"href='http://www.fatihtoprak.com'>Fatih Toprak</a>. <br />"
+msgstr ""
+"%s &copy; 2014 - Tüm hakları saklıdır. <br /> <a href='http://athena."
+"fatihtoprak.com'>Athena WordPress Teması</a> &amp; WordPress CMS üzerine <a "
+"href='http://www.fatihtoprak.com'>Fatih Toprak</a> tarafından inşa "
+"edilmiştir. <br />"
+
+#: ../athena/functions.php:209 functions.php:209
+msgid "This menu will appear on page header area."
+msgstr "Bu menü sayfalarınızın header (üst kısım) alanında yer alan menüdür."
+
+#: ../athena/functions.php:210 functions.php:210
+msgid "This menu will appear on page footer area."
+msgstr "Bu menü sayfalarınızın footer (alt kısım) alanında yer alan menüdür."
+
+#: ../athena/functions.php:299 functions.php:299
+msgid "Date : "
+msgstr "Tarih : "
+
+#: ../athena/functions.php:300 functions.php:300
+msgid "Author : "
+msgstr "Yazar : "
+
+#: ../athena/functions.php:301 functions.php:301
+msgid "Reactions : "
+msgstr "Reaksiyonlar : "
+
+#: ../athena/functions.php:302 functions.php:302
+msgid " views"
+msgstr " okunma"
+
+#: ../athena/functions.php:303 functions.php:303
+msgid "Categories : "
+msgstr "Kategoriler : "
+
+#: ../athena/functions.php:308 functions.php:308
+msgid "Tags : "
+msgstr "Etiketler : "
+
+#: ../athena/functions.php:354 functions.php:354
+msgid "Footer Left Sidebar"
+msgstr "Footer Sol Bileşen Alanı"
+
+#: ../athena/functions.php:355 functions.php:355
+msgid ""
+"This sidebar area display your widgets on page left bottom (footer) area."
+msgstr ""
+"Bu bileşen alanında, sayfa altında sol tarafta yer alacak bileşenlerinizi "
+"ekleyebilirsiniz"
+
+#: ../athena/functions.php:371 functions.php:371
+msgid "Footer Right Sidebar"
+msgstr "Footer Sağ Bileşen Alanı"
+
+#: ../athena/functions.php:372 functions.php:372
+msgid ""
+"This sidebar area display your widgets on page right bottom (footer) area."
+msgstr ""
+"Bu bileşen alanında, sayfa altında sağ tarafta yer alacak bileşenlerinizi "
+"ekleyebilirsiniz"
+
+#: ../athena/functions.php:391 functions.php:391
+msgid "Type something here..."
+msgstr "Birşeyler yazın..."
+
+#: ../athena/functions.php:391 functions.php:391
+msgid "Find"
+msgstr "Bul"
+
+#, fuzzy
+#~ msgid "Comments : "
+#~ msgstr "Yorumlar"
+
+#~ msgid "%s &copy; 2014 - All rights reserved."
+#~ msgstr "%s &copy; 2014 - Tüm hakları saklıdır."
+
+#~ msgid "Athena Theme"
+#~ msgstr "Athena Teması"
+
+#~ msgid "Hello World!"
+#~ msgstr "Merhaba Dünya!"

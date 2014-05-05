@@ -1,0 +1,305 @@
+/*
+Theme Name: Athena
+Theme URI: http://athena.fatihtoprak.com
+Author: Fatih Toprak
+Author URI: http://www.fatihtoprak.com;
+Description: Simple and clean Wordpress One column blogging theme. / Basit ve temiz tek sutun Wordpress blog temasi.
+Version: 0.3
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: Athena-Theme
+Domain Path: /lang
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+Bu tema, Wordpress gibi, GPL lisansi altindaki kosullar ile olusturulmustur.
+Havali, eglenceli, ve neler istediginiz sekilde blog icerikleri uretmeniz icin kurgulanmistir.
+*/
+
+
+body {
+	margin:0px;
+	padding:0px;
+	background:#f2f2f2;
+}
+
+#main_body {
+	margin:0px auto;
+	width:980px;
+	text-align:center;
+	font-weight:400;
+	font-family:'Open Sans';
+	color:#333;
+	font-size:14px;
+	line-height:30px;
+}
+
+.athena_theme {
+	margin:30px 0 30px 0;
+	float:left;
+	width:940px;
+	text-align:left;
+	background:#fff;
+	padding:20px;
+	-moz-box-shadow: 0 0 5px #888;
+	-webkit-box-shadow: 0 0 5px#888;
+	box-shadow: 0 0 5px #888;
+}
+
+header {
+	text-align:center;
+}
+
+header h1 {
+	float:left;
+	width:900px;
+	height:90px;
+	line-height:90px;
+	padding:20px;
+	color:#fff;
+	text-shadow:1px 1px 1px #000;
+}
+
+header h1 a {
+	display:block;
+	color:#fff;
+	text-decoration:none;
+	display:block;
+}
+
+header span {
+	float:left;
+	width:900px;
+	height:20px;
+	line-height:20px;
+	font-size:13px;
+}
+
+nav {
+	margin:0;
+	padding:0;
+	width:940px;
+	height:40px;
+	border-bottom:1px solid #f2f2f2;
+	text-align:center;
+	margin:10px 0 10px 0;
+	float:left;
+	line-height:40px;
+}
+
+nav ul#athenatopnav  {
+	float:left;
+	list-style-type:none;
+	margin:0;
+	padding:0;
+}
+
+nav ul#athenatopnav li {
+	list-style-type:none;
+	float:left;
+	margin:0 10px 0 0;
+}
+
+nav ul#athenatopnav li a {
+	text-align:center;
+	display:block;
+	background:#f2f2f2;
+	color:#333;
+	text-decoration:none;
+	padding:0 10px 0 10px;
+}
+
+nav ul#athenabottomnav  {
+	float:right;
+	list-style-type:none;
+	margin:0;
+	padding:0;
+}
+
+nav ul#athenabottomnav li {
+	list-style-type:none;
+	float:left;
+	margin:0 10px 0 0;
+}
+
+nav ul#athenabottomnav li a {
+	text-align:center;
+	display:block;
+	background:#f2f2f2;
+	color:#333;
+	text-decoration:none;
+	padding:0 10px 0 10px;
+}
+
+section {
+	margin:0 0 40px 0;
+}
+
+article.athena_loop {
+	float:left;
+	width:740px;
+	margin:40px 100px 40px 100px;
+	padding:20px 0 20px 0;
+	border-bottom:2px solid #f2f2f2;
+}
+
+article.athena_loop h2 {
+	font-size:30px;
+	line-height:45px;
+}
+
+article.athena_loop h2 a {
+	color:#333;
+	text-decoration:none;
+}
+
+article.athena_loop h2 a:hover {
+	color:#0D374D;
+}
+
+article.athena_loop .postBody {}
+article.athena_loop figure {margin:0;padding:0;}
+article.athena_loop:nth-child(odd) .postBody figure img.athena_loopimage{float:right;margin:10px 0px 10px 10px;width:150px;height:150px;border:1px solid #f2f2f2;padding:4px;}
+article.athena_loop:nth-child(even) .postBody figure img.athena_loopimage{float:left;margin:10px 10px 10px 0px;width:150px;height:150px;border:1px solid #f2f2f2;padding:4px;}
+article.athena_loop .postBody address{margin:20px;background:#f2f2f2;padding:20px;}
+article.athena_loop .postBody a{color:#0d374d;font-weight:bold;}
+article.athena_loop .postBody p{margin-bottom:25px;}
+article.athena_loop .postBody h1{font-size:35px;line-height:45px;}
+article.athena_loop .postBody h2{font-size:30px;line-height:45px;}
+article.athena_loop .postBody h3{font-size:25px;line-height:25px;}
+article.athena_loop .postBody h4{font-size:20px;line-height:20px;}
+article.athena_loop .postBody h5{font-size:15px;line-height:15px;}
+article.athena_loop .postBody h6{font-size:11px;line-height:15px;}
+article.athena_loop .postBody form.notfoundsearch{float:left;}
+article.athena_loop .postBody form.notfoundsearch input[type='text']{float:left;width:700px;padding:5px;border:1px solid #F2F2F2;font-size:13px;line-height:26px;outline:none;}
+article.athena_loop .postBody form.notfoundsearch input[type='submit']{float:left;width:100px;padding:5px;background:#F2F2F2;font-size:13px;line-height:26px;outline:none;cursor:pointer;border:none;}
+article.athena_loop .postBody form.notfoundsearch:hover input[type='submit']{color:#fff;background:#333;}
+article.athena_loop .postBody form.notfoundsearch:hover input[type='text']{border:1px solid #333;}
+article.athena_loop .athena_singular {margin-top:0px;float:left;}
+article.athena_loop .athena_singular figure{margin:0px auto;padding:0px;width:100%;}
+article.athena_loop .athena_singular figure img.athena_single_image{padding:9px;max-width:720px;border:1px solid #f2f2f2;margin:0px auto;height:auto;}
+article.athena_loop .athena_post-meta{
+	float:left;
+	width:740px;
+	margin:20px 0 0 0;
+	font-size:12px;
+	line-height:19px;
+}
+article.athena_loop .athena_post-meta span {
+	margin-right:10px;
+}
+article.athena_loop .athena_post-meta a {
+	margin-right:5px;
+	color:#333;
+}
+
+nav#athena_posts_navigation {
+	float:left;
+	width:740px;
+	text-align:center;
+	border-top:none;
+	border-bottom:none;
+	height:40px;
+	line-height:40px;
+	margin:40px 100px 70px 100px;
+}
+
+nav#athena_posts_navigation ul{padding:0;list-style-type:none;text-align:center;}
+nav#athena_posts_navigation ul li:first-child{float:left;}
+nav#athena_posts_navigation ul li:last-child{float:right;}
+nav#athena_posts_navigation ul li a{
+	background:#333;
+	padding:0 10px 0 10px;
+	color:#fff;
+	font-weight:bold;
+	display:block;
+	height:40px;
+	line-height:40px;
+	text-decoration:none;
+}
+
+section.footer_widgets_column {
+	float:left;
+	width:940px;
+	margin:0px;
+	padding:0px;
+}
+section.footer_widgets_column .athena_footer_widgets {float:left;width:460px;margin:0 5px 0 5px;}
+section.footer_widgets_column .athena_footer_widgets h3{float:left;width:460px;background:#f2f2f2;height:40px;line-height:40px;text-align:center;}
+section.footer_widgets_column .athena_footer_widgets a{color:#333;}
+section.footer_widgets_column .athena_footer_widgets ul{margin:0;padding:0;list-style-type:none;}
+section.footer_widgets_column .athena_footer_widgets ul li{float:left;width:460px;}
+section.footer_widgets_column .athena_footer_widgets ul li a{}
+
+/* calendar widget */
+.widget_calendar {float: left;}
+#wp-calendar {width: 100%; }
+#wp-calendar caption { text-align: right; color: #333; font-size: 12px; margin-top: 10px; margin-bottom: 15px; }
+#wp-calendar thead { font-size: 10px; }
+#wp-calendar thead th { padding-bottom: 10px; }
+#wp-calendar tbody { color: #aaa; }
+#wp-calendar tbody td { background: #f5f5f5; border: 1px solid #fff; text-align: center; padding:8px;}
+#wp-calendar tbody td:hover { background: #fff; }
+#wp-calendar tbody .pad { background: none; }
+#wp-calendar tfoot #next { font-size: 10px; text-transform: uppercase; text-align: right; }
+#wp-calendar tfoot #prev { font-size: 10px; text-transform: uppercase; padding-top: 10px; }
+
+img.alignright {float:right; margin:0 0 1em 1em}
+img.alignleft {float:left; margin:0 1em 1em 0}
+img.aligncenter {display: block; margin-left: auto; margin-right: auto}
+a img.alignright {float:right; margin:0 0 1em 1em}
+a img.alignleft {float:left; margin:0 1em 1em 0}
+a img.aligncenter {display: block; margin-left: auto; margin-right: auto}
+
+.gallery { margin: 0 auto 18px; }
+.gallery .gallery-item {
+	float: left;
+	margin-top: 0;
+	text-align: center;
+	width: 33%;
+}
+.gallery-columns-2 .gallery-item { width: 50%; }
+.gallery-columns-4 .gallery-item { width: 25%; }
+.gallery img {
+	box-shadow: 0px 0px 4px #999;
+	border: 1px solid white;
+	padding: 8px;
+	background: #f2f2f2;
+}
+.gallery img:hover {
+	background: white;
+}
+.gallery-columns-2 .attachment-medium {
+	max-width: 92%;
+	height: auto;
+}
+.gallery-columns-4 .attachment-thumbnail {
+	max-width: 84%;
+	height: auto;
+}
+.gallery .gallery-caption {
+	color: #888;
+	font-size: 12px;
+	margin: 0 0 12px;
+}
+.gallery dl, .gallery dt { margin: 0; }
+.gallery br+br { display: none; }
+
+div.Athena_Disqus_comments_Section {
+	float:left;
+	width:740px;
+	margin:20px 100px 20px 100px;
+}
+
+footer {
+	float:left;
+	text-align:center;
+	margin:60px 0 0 0;
+	width:100%;
+}
+
+footer a {
+	color:#333;
+	text-decoration:underline;
+}
