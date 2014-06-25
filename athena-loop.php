@@ -2,7 +2,7 @@
 	/**
 	 * WordPress Athena Theme Loop
 	 * @package athena_theme
-	 * @version 0.3
+	 * @version 0.3t
 	**/
 	if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 	<!-- post -->
